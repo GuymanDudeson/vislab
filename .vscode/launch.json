@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TestWsClient",
+            "request": "launch",
+            "mainClass": "de.hska.iwi.vislab.lab1.example.TestWsClient",
+            "projectName": "lab1-example"
+        },
+        {
+            "type": "java",
+            "name": "TestWsServer",
+            "request": "launch",
+            "mainClass": "de.hska.iwi.vislab.lab1.example.TestWsServer",
+            "projectName": "lab1-example"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "de.hska.iwi.vislab.lab2.example.Main",
+            "projectName": "lab2-example"
+        },
+        {
+            "type": "java",
+            "name": "TestClient",
+            "request": "launch",
+            "mainClass": "tcc.TestClient",
+            "projectName": "vislab-rest-tcc"
+        },
+        {
+            "type": "java",
+            "name": "TestServer",
+            "request": "launch",
+            "mainClass": "tcc.TestServer",
+            "projectName": "vislab-rest-tcc"
+        }
+    ]
+}
