@@ -1,0 +1,8 @@
+How-To-Run
+
+	1. Visual Studio Code
+	2. Run DevContainer
+	3. Install Maven dependencies in Container with "mvn install"
+	4. Run Server with "mvn exec:java"
+	5. Run Main Method through Visual Studio Code
+	6. Switch between BaseTest and Transaction test for both runs

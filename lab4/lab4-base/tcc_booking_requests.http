@@ -34,13 +34,13 @@ GET http://localhost:4434/hotel/xyz  HTTP/1.1
 Accept: application/xml
 
 ### confirm flight reservation
-PUT http://localhost:4434/flight/8da48245-10b0-45d5-90ca-c0ae194f6b2a  HTTP/1.1
+PUT http://localhost:4434/flight/9dfb8ea2-50be-4707-a872-030719e75214  HTTP/1.1
 Accept: text/plain
 ### confirm hotel reservation
-PUT http://localhost:4434/hotel/8bf593df-a6a2-46c1-ae48-44fd92d81c93  HTTP/1.1
+PUT http://localhost:4434/hotel/e1848a59-0b4c-4926-9a32-5a51d3bee138  HTTP/1.1
 Accept: text/plain
 ### cancel flight reservation
-DELETE http://localhost:4434/flight/  HTTP/1.1
+DELETE http://localhost:4434/flight/8675f522-b659-48e0-91fd-5b06115b512a  HTTP/1.1
 Accept: text/plain
 ### cancel hotel reservation
 DELETE http://localhost:4434/hotel/8adf3af8-d527-4ace-9ea3-dc789fb1e163  HTTP/1.1

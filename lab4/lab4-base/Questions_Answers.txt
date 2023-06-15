@@ -1,0 +1,20 @@
+Übung 4:
+1.	Da die Hotels eine maximale Buchungsbegrenzung von 10 haben,
+	ist diese nach den 10 Durchläufe erreicht.
+	Weitere Anfragen würden abgewiesen werden.
+
+2.	
+	Atomicity: 
+		Ist gegeben, da der Zustand nach einer Transaktion immer gesamheitlich
+		erfolgreich oder gescheitert ist.
+	Consitency:
+		Ist gegeben
+		(In unserem Beispiel werden auch die noch nicht bestätigten Reservierungen
+		sofort in die Map des Services geschrieben. Zumindest zeitweise wird dadurch ein 
+		inkonsistenter Zustand erreicht, wenn man davon ausgeht, dass Einträge mit einem "Confirmed = false"
+		als eine Zustandsänderung angesehen werden kann.)
+	Isolation: 
+		Ist gegeben
+	Durability:
+		Nicht garantiert, da das protokoll keinen Aufschluss über die dahinterliegende Speicherung gibt.
+	
